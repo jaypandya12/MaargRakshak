@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "803871309597",
+    "firebase_url": "https://maargrakshak-d8847.firebaseio.com",
+    "project_id": "maargrakshak-d8847",
+    "storage_bucket": "maargrakshak-d8847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803871309597:android:0fa96d7a56bbbe84416bf4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803871309597-qgajrjbvuq9cgcdd4m49gh8ombpo8bo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "441a4b82de78866ed5e61f1e7d85d962db7a6f38"
+          }
+        },
+        {
+          "client_id": "803871309597-9krn8d7q1bfrkc9s6h3lr7mg0miq5usd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDCOnJXYdhPUQUNOny1SwqgeNq2i8AvDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803871309597-9krn8d7q1bfrkc9s6h3lr7mg0miq5usd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DetailActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:outlineSpotShadowColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Outdoor Event" />
+
+
+    <TextView
+        android:id="@+id/desc"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="Description of event1" />
+    <TextView
+        android:id="@+id/like"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="Like" />
+    <TextView
+        android:id="@+id/likes_count"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Likes"
+        android:textAlignment="center"
+        android:layout_margin="4sp"/>
+
+
+</LinearLayout>
